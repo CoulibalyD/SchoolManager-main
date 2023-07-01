@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SchoolManager</title>
+</head>
+<header>
+  <h1>Ecole de Kayes</h1>
+</header>
+  <body>
+
+<nav class="na">
+ 
+   <div class="navbar navbar-expand navbar-dark bg-secondarygt">
+    <a routerLink="home" class="offset-1"><img src="assets\img\logo1.png" width="65" alt="logo"  class="d-inline-block  mr-3"></a>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="navbar-brand offset-1" routerLink="home"> <b>Accueil</b></a>
+        </li>
+             <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="home"> Presentation</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Gestion des etudiants</a>
+                <a class="dropdown-item" href="#">Gestion des administrations</a>
+                <a class="dropdown-item" href="#">Gestion des enseignant</a>
+                <a class="dropdown-item" href="#">Gestion des emploi du temps</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Gestion des payements</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="Apropos"> About</a>
+          </li>
+             <li class="nav-item">
+                <a class="nav-link" routerLink="Contact"> Contact</a>
+            </li>
+            <li class="nav-item offset-8">
+              <a class="nav-link" routerLink="connexion"> <button class="btn btn-dark" style="color: aliceblue;"> Connexion</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="inscription"> <button type="button" class="btn btn-secondary">Inscription</button></a>
+        </li>
+        </ul>
+        </div>
+    <!-- <form class="d-flex mt-2" role="search">
+      <a class="nav-link " routerLink="connexion"><b>login</b></a><a class="nav-link offset-1"   routerLink="SignUP"><b>SignUp</b> </a> <a class="nav-link offset-1"></a>
+      </form> -->
+   </div>
+</nav>
+</body>
+</html>
+<router-outlet></router-outlet>
